@@ -7,11 +7,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
-	width: 100vw;
+	height: 700px;
+	width: 1260px;
 	font-family: sans-serif;
 	/* background-image: linear-gradient(135deg, #ff6fd8 10%, #3813c2 100%); */
 	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	/* border: solid white; */
 }
 .profile-card {
 	cursor: pointer;
@@ -189,6 +190,11 @@ ul li a:hover::before {
 		/* background: red; */
 		border-radius: 10px;
 		/* border: solid; */
+		width: 100vw;
+	}
+	body {
+		width: 100vw;
+		/* border: solid white; */
 	}
 	ul {
 		position: relative;
