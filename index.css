@@ -7,11 +7,12 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 700px;
-	width: 1260px;
+	height: 90vh;
+	width: 98vw;
 	font-family: sans-serif;
 	/* background-image: linear-gradient(135deg, #ff6fd8 10%, #3813c2 100%); */
-	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+	/* 	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
+	background: #2d2c2c;
 	/* border: solid white; */
 }
 .profile-card {
